@@ -1,0 +1,40 @@
+/*********************************
+
+_common.scss
+
+*********************************/
+
+
+
+.mar-top-30 {
+    margin-top: 30px !important;
+}
+
+.pad-t-20{
+    padding-top: 10px!important;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.img-100 img {
+    width: 100%;
+    height: auto;
+}

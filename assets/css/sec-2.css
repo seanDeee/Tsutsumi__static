@@ -1,0 +1,60 @@
+@charset "UTF-8";
+.section-02-container p {
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 40px; }
+.section-02-container h2 {
+  font-family: 'Times New Roman', 'Times', 'Hiragino Mincho ProN', '∩╝¡∩╝│ ∩╝░µÿÄµ£¥', 'MS PMincho', Meiryo, serif;
+  margin: 0;
+  color: #221815; }
+
+@media only screen and (min-width: 1241px) {
+  #section-02 {
+    margin-top: 250px; }
+  #section-02 .section-02-container h2 {
+    margin: 0;
+    font-family: 'Times New Roman', 'Times', 'Hiragino Mincho ProN', '∩╝¡∩╝│ ∩╝░µÿÄµ£¥', 'MS PMincho', Meiryo, serif;
+    color: #221815;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: center; }
+  #section-02 .section-02-container .content {
+    margin-top: 40px; }
+  #section-02 .section-02-container .content p {
+    margin-top: 0;
+    color: #221815;
+    font-size: 18px;
+    line-height: 2.1;
+    text-align: center; } }
+@media only screen and (max-width: 1240px) and (min-width: 768px) {
+  #section-02 {
+    margin-top: 60px; }
+  #section-02 .section-02-container h2 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: bold; }
+  #section-02 .section-02-container .content {
+    margin-top: 20px; }
+  #section-02 .section-02-container .content p {
+    font-size: 15px;
+    line-height: 1.8; } }
+@media only screen and (max-width: 767.5px) {
+  #section-02 {
+    margin: 40px 12px; }
+  #section-02 h2 {
+    text-align: left !important;
+    font-size: 24px;
+    font-weight: bold !important;
+    line-height: 1.4; }
+  #section-02 p {
+    text-align: left !important;
+    font-size: 12px;
+    line-height: 2; }
+  #section-02 .content {
+    margin-top: 20px; }
+  #section-02 .content br {
+    display: none; } }
+
+/*# sourceMappingURL=sec-2.css.map */

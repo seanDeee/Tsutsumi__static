@@ -1,0 +1,33 @@
+#section-03 {
+    background-image: url("./../img/background-pixta-img.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+//larger screens   
+@media only screen and (min-width: 1241px) {
+    #section-03 {
+        margin-top: 90px;
+        width: 100%;
+        height: 450px;
+    }
+}
+
+//default screen up to tablet
+@media only screen and (max-width: 1240px) and (min-width: 768px) {
+    #section-03 {
+        margin-top: 50px;
+        width: 100%;
+        height: 240px;
+    }
+}
+
+//mobile
+@media only screen and (max-width: 767px) {
+    #section-03 {
+        margin-top: 35px;
+        width: 100%;
+        height: 160px;
+    }
+}

@@ -1,0 +1,109 @@
+//larger screens
+#section-07 {
+    margin-top: 120px;
+
+    .arrow-link-container {
+        position: fixed;
+        width: 47px;
+        line-height: 0;
+        height: 47px;
+        font-size: 0;
+        right: 40px;
+        bottom: 40px;
+
+        img {
+            float: right;
+        }
+
+
+    }
+    .arrow-link-container:hover {
+        opacity: 0.7;
+        transition: all .2s linear;
+    }
+
+    .section-7-container {
+        width: 100%;
+        max-width: 883px;
+        margin: 80px auto 0;
+
+        p {
+            color: #221815;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        p.map-info {
+            margin-top: 10px;
+        }
+    }
+}
+
+
+
+//default screen upto tablet
+@media only screen and (max-width: 1240px) and (min-width: 768px) {
+
+    img.map {
+        width: 100% !important;
+        height: auto;
+    }
+
+    #section-07 {
+        margin-top: 80px;
+
+
+        .section-7-container {
+            //max-width: 838px !important;
+            margin: 40px auto 0;
+
+            p {
+                text-align: justify;
+                color: #221815;
+                font-size: 12px;
+                line-height: 1.9;
+            }
+
+            .map-info {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+//mobile devices
+@media only screen and (max-width: 767.5px) {
+    .arrow-link-container {
+        position: fixed !important;
+        width: 47px !important;
+        line-height: 0 !important;
+        height: 47px !important;
+        font-size: 0 !important;
+        right: 15px !important;
+        bottom: 40px !important;
+    }
+
+    #section-07 {
+        margin-top: 40px;
+    }
+
+    img.map {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .section-7-container {
+        margin: 45px auto 0;
+
+        p {
+            margin: 0 10px;
+            color: #221815;
+            font-size: 12px;
+            line-height: 1.9;
+        }
+
+        .map-info {
+            margin: 0 10px;
+        }
+    }
+}

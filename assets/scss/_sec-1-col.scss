@@ -1,0 +1,226 @@
+/*********************************
+
+_top.scss
+
+*********************************/
+
+#section-01 {
+    background-color: #e6ebee;
+}
+
+.callout-3-box-container {
+    position: relative;
+
+    .col-3-list {
+        display: table
+    }
+
+    .box-1 {
+        background-color: #00437c;
+        opacity: 1;
+    }
+    .box-1:hover {
+        opacity: 0.7;
+        transition: all .2s linear;
+    }
+
+    .box-2 {
+        background-color: #005ca2;
+        opacity: 1;
+    }
+    .box-2:hover {
+        opacity: 0.7;
+        transition: all .2s linear;
+    }
+
+    .box-3 {
+        opacity: 1;
+        background-color: #0075b6;
+    }
+    .box-3:hover {
+        opacity: 0.7;
+        transition: all .2s linear;
+    }
+}
+
+
+@media only screen and (min-width: 1241px) {
+    .col-3-box {
+        width: 1200px;
+        position: absolute;
+        bottom: -170px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        background-color: #fff;
+
+        .col-one-third {
+            width: 400px !important;
+            height: 345px;
+            float: left !important;
+
+            figure {
+                margin-top: 35px;
+                text-align: center;
+                font-size: 0;
+                line-height: 0;
+            }
+
+            .col-box-title {
+                padding-top: 40px !important;
+                color: #fff;
+                font-size: 26px;
+                line-height: 1.2;
+                font-weight: normal;
+                text-align: center;
+            }
+
+            .col-3-list {
+                margin: 41px auto 0;
+            }
+
+            ul {
+                padding-left: 0;
+                list-style-type: none;
+            }
+
+            p,
+            ul li {
+                margin-bottom: 4px;
+                color: #fff;
+                font-size: 18px;
+                line-height: 1.5;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 1240px) and (min-width: 768px) {
+    .col-box-title {
+        padding-top: 40px !important;
+    }
+    .col-3-list {
+        padding-bottom: 30px !important;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    a {
+        text-decoration: none !important;
+    }
+    #section-01 {
+        background-color: #fff !important;
+    }
+
+    .col-3-box {
+        margin: 12px 12px 0;
+
+        .col-one-third {
+
+            .col-box-title {
+                padding-top: 40px !important;
+            }
+            .col-3-list {
+                padding-bottom: 30px !important;
+            }
+
+            h3 {
+                color: #fff;
+                font-size: 20px;
+                line-height: 1.2;
+                font-weight: normal;
+                text-align: center;
+            }
+
+
+            figure {
+                margin-top: 30px;
+                text-align: center;
+                font-size: 0;
+                line-height: 0;
+
+                img {
+                    width: 64px;
+                    height: auto;
+                }
+            }
+
+            ul {
+                margin: 25px auto 0;
+                list-style-type: none;
+
+                li {
+                    color: #fff;
+                    font-size: 13px;
+                    line-height: 1.5;
+                    font-weight: normal;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1240px) and (min-width: 768px) {
+
+    .col-3-box {
+        margin-left: auto;
+        margin-right: auto;
+
+        .col-one-third {
+            width: 33.33332%;
+            height: 260px;
+            float: left;
+
+            h3 {
+                color: #fff;
+                font-size: 20px;
+                line-height: 1.2;
+                font-weight: normal;
+                text-align: center;
+            }
+
+            a {
+                padding-top: 30px;
+                height: 260px;
+                box-sizing: border-box;
+                display: block;
+                text-decoration: none;
+            }
+
+            figure {
+                margin-top: 25px;
+                text-align: center;
+                font-size: 0;
+                line-height: 0;
+
+                img {
+                    width: 60px;
+                    height: auto;
+                }
+            }
+
+            ul {
+                margin: 25px auto 0;
+                list-style-type: none;
+
+                li {
+                    color: #fff;
+                    font-size: 14px;
+                    line-height: 1.4;
+                    font-weight: normal;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+    }
+}

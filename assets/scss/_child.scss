@@ -1,0 +1,441 @@
+/*********************************
+
+_child..scss
+
+*********************************/
+
+.mobile-only {
+    display: none !important;
+}
+
+a.no-deco {
+    text-decoration: none;
+}
+
+.arrow-link-container {
+    position: fixed;
+    width: 47px;
+    line-height: 0;
+    height: 47px;
+    font-size: 0;
+    right: 40px;
+    bottom: 40px;
+
+    a {
+        opacity: 1;
+    }
+    a:hover {
+        opacity: 0.7;
+        transition: all .2s linear;
+    }
+}
+
+
+
+.breadcrumb-container {
+    li {
+        color: #221815;
+        text-decoration: none;
+        font-weight: 300;
+
+    }
+}
+
+#child-sec-01 {
+    background-color: #00437c !important;
+}
+
+
+.child-sec-01-container {
+    h2 {
+        color: #fff;
+        font-weight: normal;
+    }
+}
+
+.blue-2-button {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #4c8dcb;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4c8dcb;
+}
+
+
+
+
+.btn-1-container,
+.btn-2-container {
+    width: 48%;
+}
+
+.btn-1-container {
+    float: left;
+}
+
+.btn-2-container {
+    float: right;
+}
+
+
+.qa-container {
+    .qa-title {
+        background-color: #00437c;
+    }
+
+    h3 {
+        color: #fff;
+    }
+    .icon-container,
+    .faq-txt {
+        display: table-cell;
+        vertical-align: top;
+    }
+    .question {
+        background-color: #ffffff;
+    }
+    .answer {
+        background-color: #fdeeed;
+    }
+    .question,
+    .answer {
+        padding: 33px 11px;
+    }
+    .question .faq-txt p,
+    .answer .faq-txt p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 40px;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-left: 33px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1241px) {
+
+    .child-sec-01-container {
+
+        h2 {
+            padding: 70px 0;
+            font-size: 32px;
+            line-height: 1.2;
+            font-weight: normal;
+        }
+    }
+
+    .breadcrumb-container {
+        margin-top: 46px;
+        margin-left: auto;
+        margin-right: auto;
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+            }
+        }
+
+        a {
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        .breadcrumbs-space {
+            vertical-align: 2px;
+            margin: 0 15px;
+        }
+    }
+
+    .qa-container {
+        margin-top: 85px;
+
+        .qa-title h2 {
+            font-size: 24px;
+            line-height: 1.3;
+            font-weight: normal;
+            color: #fff;
+            padding: 16px 18px;
+        }
+
+        .question,
+        .answer {
+            padding: 25px 10px;
+        }
+
+        .question .faq-txt p,
+        .answer .faq-txt p {
+            font-size: 18px;
+            line-height: 2.1;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-left: 33px;
+        }
+
+        .question .icon-container img,
+        .answer .icon-container img {
+            width: 46px;
+        }
+    }
+
+    .btns-container {
+        margin-top: 36px;
+
+        .blue-2-button {
+            font-size: 28px;
+            line-height: 1.5;
+            font-weight: normal;
+            padding: 32px 20px 32px 0;
+
+            span {
+                position: relative;
+            }
+
+            span::after {
+                content: "";
+                background: url("./../img/arrow_right_white.png") no-repeat 0 0;
+                background-size: 12px auto;
+                position: absolute;
+                top: 8px;
+                right: -25px;
+                width: 12px;
+                height: 16px;
+            }
+        }
+
+        .blue-2-button:hover {
+            color: #4c8dcb;
+            background-color: #fff;
+        }
+        .blue-2-button:hover span:after {
+            background: url("./../img/arrow_right_blue.png") no-repeat 0 0;
+            background-size: 12px auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 768px) {
+
+    .child-sec-01-container {
+
+        h2 {
+            font-size: 22px;
+            line-height: 1.2;
+            padding: 20px 0;
+
+        }
+    }
+
+    .breadcrumb-container {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+            }
+        }
+
+        a {
+            font-size: 15px;
+            line-height: 1.4;
+        }
+
+        .breadcrumbs-space {
+            vertical-align: 2px;
+            margin: 0 15px;
+        }
+    }
+
+    .qa-container {
+        margin-top: 70px;
+
+        .qa-title h2 {
+            color: #fff;
+            padding: 10px 12px;
+            font-size: 18px;
+            line-height: 1.3;
+            font-weight: normal;
+        }
+
+        .question,
+        .answer {
+            padding: 25px 10px;
+        }
+
+        .question .faq-txt p,
+        .answer .faq-txt p {
+            font-size: 15px;
+            line-height: 1.9;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-left: 33px;
+        }
+
+        .question .icon-container img,
+        .answer .icon-container img {
+            width: 48px;
+        }
+    }
+
+    .btns-container {
+        margin-top: 40px;
+
+        .blue-2-button {
+            padding: 20px 20px 20px 0;
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: normal;
+        }
+
+        span {
+            position: relative;
+        }
+
+        span::after {
+            content: "";
+            background: url("./../img/arrow_right_white.png") no-repeat 0 0;
+            background-size: 8px auto;
+            position: absolute;
+            top: 4px;
+            right: -25px;
+            width: 8px;
+            height: 12px;
+
+        }
+          .blue-2-button:hover {
+            color: #4c8dcb;
+            background-color: #fff;
+        }
+        .blue-2-button:hover span:after {
+            background: url("./../img/arrow_right_blue.png") no-repeat 0 0;
+            background-size: 8px auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 767.5px) {
+
+    .child-sec-01-container {
+
+        h2 {
+            padding: 35px 12px;
+            font-size: 20px;
+            line-height: 1.4;
+            text-align: center;
+        }
+    }
+
+    .btn-1-container,
+    .btn-2-container {
+        float: none !important;
+        width: auto;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+    .btn-2-container {
+        margin-top: 25px;
+    }
+
+    .breadcrumb-container {
+        margin: 32px 12px 0;
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+            }
+        }
+
+        a {
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .breadcrumbs-space {
+            vertical-align: 1px;
+            margin: 0 15px;
+        }
+    }
+
+    .qa-container {
+        margin-top: 93px;
+
+        .qa-title h2 {
+            color: #fff;
+            padding: 14px 12px;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: normal;
+        }
+
+        .question,
+        .answer {
+            padding: 25px 10px;
+        }
+
+        .question .faq-txt p,
+        .answer .faq-txt p {
+            font-size: 12px;
+            line-height: 1.9;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-left: 11px;
+        }
+
+        .question .icon-container img,
+        .answer .icon-container img {
+            width: 38px;
+        }
+    }
+
+    .btns-container {
+        margin-top: 28px;
+
+        .blue-2-button {
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: normal;
+            padding: 18px 18px 18px 0;
+        }
+
+        span {
+            position: relative;
+        }
+
+        span::after {
+            content: "";
+            background: url("./../img/arrow_right_white.png") no-repeat 0 0;
+            background-size: 8px auto;
+            position: absolute;
+            top: 3px;
+            right: -22px;
+            width: 8px;
+            height: 12px;
+        }
+        
+                  .blue-2-button:hover {
+            color: #4c8dcb;
+            background-color: #fff;
+        }
+        .blue-2-button:hover span:after {
+            background: url("./../img/arrow_right_blue.png") no-repeat 0 0;
+            background-size: 8px auto;
+        }
+        
+    }
+
+    .child footer {
+        margin-top: 108px !important;
+    }
+}
